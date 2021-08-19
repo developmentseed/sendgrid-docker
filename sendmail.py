@@ -8,8 +8,6 @@ EMAIL_SUBJECT = os.environ.get('EMAIL_SUBJECT')
 SENDGRID_API_KEY = os.environ.get('SENDGRID_API_KEY')
 EMAIL_MESSAGE = os.environ.get('EMAIL_MESSAGE')
 
-print(SENDGRID_API_KEY)
-
 message = Mail(
     from_email=FROM_EMAIL,
     to_emails=TO_EMAILS,
